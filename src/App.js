@@ -1,7 +1,14 @@
 import React from 'react';
 
+/** Importando as routas da aplicação */
+import Routes from './routes';
+
 function App() {
-  return <h1>Hello ReactJS</h1>;
+  return (
+    <>
+      <Routes />
+    </>
+  );
 }
 
 export default App;
