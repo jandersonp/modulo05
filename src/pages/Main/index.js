@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 /** Importando Icones */
 import { FaGithub, FaPlus, FaSpinner } from 'react-icons/fa';
@@ -88,7 +89,9 @@ export default class Main extends Component {
           {repositories.map(repository => (
             <li key={repository.name}>
               <span>{repository.name}</span>
-              <a href="#">Detalhes do repositório</a>
+              <Link to={`/repository/${encodeURIComponent(repository.name)}`}>
+                Detalhes do repositório
+              </Link>
             </li>
           ))}
         </List>
