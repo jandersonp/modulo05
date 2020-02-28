@@ -1,8 +1,19 @@
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 
 export const Container = styled.div``;
 
-export const Loading = styled.div`
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+`;
+
+export const Loading = styled.div.attrs(props => ({
+  disabled: props.loading,
+}))`
   color: rgb(255, 255, 255);
   font-size: 30px;
   font-weight: bold;
@@ -10,6 +21,18 @@ export const Loading = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  &[disabled] {
+    opacity: 0.9;
+  }
+
+  ${props =>
+    props.loading &&
+    css`
+      svg {
+        animation: ${rotate} 2s linear infinite;
+      }
+    `}
 `;
 
 export const Owner = styled.header`
