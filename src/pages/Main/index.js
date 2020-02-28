@@ -40,13 +40,13 @@ export default class Main extends Component {
 
   /** Chamada a API */
   handleSubmit = async e => {
-    e.preventDefault();
+    e.preventDefault(); /** Evita que o formulario faça o reload da página */
 
     this.setState({ loading: true });
 
     const { newRepo, repositories } = this.state;
 
-    const response = await api.get(`repos/${newRepo}`);
+    const response = await api.get(`/repos/${newRepo}`);
 
     const data = {
       name: response.data.full_name,
