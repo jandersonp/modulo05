@@ -9,10 +9,8 @@
 <p align="center">Código do quinto módulo do <a href="https://rocketseat.com.br/bootcamp">Bootcamp GoStack</a> 🎓</p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-05?color=%2304D361">
-
-  <a href="https://www.linkedin.com/in/jandersonvilasboas/">
-    <img alt="Made by Janderson Vilas Boas" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
+    <a href="https://www.linkedin.com/in/jandersonvilasboas/">
+    <img alt="Made by Janderson Vilas Boas" >
   </a>
 </p>
 
