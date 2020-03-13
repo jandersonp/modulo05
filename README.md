@@ -8,10 +8,7 @@
 
 <p align="center">Código do quinto módulo do <a href="https://rocketseat.com.br/bootcamp">Bootcamp GoStack</a> 🎓</p>
 
-<p align="center">
-    <a href="https://www.linkedin.com/in/jandersonvilasboas/">
-    <img alt="Made by Janderson Vilas Boas" >
-  </a>
+<p align="center">Made by <a href="https://www.linkedin.com/in/jandersonvilasboas/">Janderson Vilas Boas</a></p>
 </p>
 
 <p align="center">
